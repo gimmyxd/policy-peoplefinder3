@@ -43,4 +43,5 @@ jobs:
       with:
         bundle: build/bundle.tar.gz
         release_id: ${{ steps.release.outputs.release_id }}
+        policy_registry: "https://bundler.eng.aserto.com/v1"
         verbose: true
